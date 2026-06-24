@@ -1410,21 +1410,21 @@
              ======================================== -->
         <div id="welcomeView">
             <div class="logo-wrapper">
-                <div class="logo-icon"></div>
+                <div class="logo-icon">📱</div>
                 <div class="app-title">Sandy <span>Ludani</span></div>
             </div>
             <div class="welcome-section">
                 <div class="greeting">
                     Selamat datang <br /><span class="highlight">Sandy...</span>
                 </div>
-                <div class="sub-text"> Silakan masuk untuk melanjutkan</div>
+                <div class="sub-text">👋 Silakan masuk untuk melanjutkan</div>
             </div>
             <button class="login-btn" id="loginBtn">
-                 Masuk ke Aplikasi
-                <span class="arrow"></span>
+                🔑 Masuk ke Aplikasi
+                <span class="arrow">→</span>
             </button>
             <div class="footer-text">
-                <span class="dot"></span> Sistem siap digunakan
+                <span class="dot">●</span> Sistem siap digunakan
             </div>
         </div>
 
@@ -1435,7 +1435,7 @@
             <!-- Header -->
             <div class="dashboard-header">
                 <div class="user-info">
-                    <div class="user-avatar-sm"></div>
+                    <div class="user-avatar-sm">👤</div>
                     <div>
                         <div class="user-name-sm" id="userNameDisplay">Sandy</div>
                         <div class="user-status-sm">
@@ -1443,34 +1443,34 @@
                         </div>
                     </div>
                 </div>
-                <button class="logout-btn-sm" id="logoutBtn"> Keluar</button>
+                <button class="logout-btn-sm" id="logoutBtn">🚪 Keluar</button>
             </div>
 
             <!-- Room Section -->
             <div class="room-section">
-                <div class="room-label"> Kode Room</div>
+                <div class="room-label">🔑 Kode Room</div>
                 <div class="room-code-display">
                     <div class="room-code waiting" id="roomCode">------</div>
                 </div>
                 <div class="room-actions">
-                    <button class="create-btn" id="createRoomBtn"> Buat Room</button>
-                    <button class="copy-btn" id="copyRoomBtn" disabled> Salin</button>
+                    <button class="create-btn" id="createRoomBtn">✨ Buat Room</button>
+                    <button class="copy-btn" id="copyRoomBtn" disabled>📋 Salin</button>
                 </div>
                 <div class="room-input-group">
                     <input type="text" id="joinRoomInput" placeholder="Masukkan kode 6 digit" maxlength="6" />
                     <button id="joinRoomBtn">Gabung</button>
                 </div>
-                <div class="room-status" id="roomStatus"> Belum ada room. Buat atau gabung room</div>
+                <div class="room-status" id="roomStatus">🔴 Belum ada room. Buat atau gabung room</div>
             </div>
 
             <!-- Menu Navigasi -->
             <div class="menu-nav" id="menuNav">
                 <button class="menu-item active" data-menu="chat">
-                    <span class="icon"></span>
+                    <span class="icon">💬</span>
                     Chat
                 </button>
                 <button class="menu-item" data-menu="call">
-                    <span class="icon"></span>
+                    <span class="icon">📞</span>
                     Panggil
                 </button>
             </div>
@@ -1480,7 +1480,7 @@
                 <!-- PANEL CHAT -->
                 <div class="menu-panel active" id="panelChat">
                     <div class="chat-messages" id="chatMessages">
-                        <div class="chat-empty"> Belum ada pesan. Mulai obrolan!</div>
+                        <div class="chat-empty">💬 Belum ada pesan. Mulai obrolan!</div>
                     </div>
                     <div class="chat-input-row">
                         <input type="text" id="chatInput" placeholder="Ketik pesan..." disabled />
@@ -1495,7 +1495,7 @@
                             <video id="remoteVideo" autoplay playsinline></video>
                             <video id="localVideo" autoplay playsinline muted></video>
                             <div class="placeholder" id="videoPlaceholder">
-                                <span class="big-icon"></span>
+                                <span class="big-icon">📹</span>
                                 <span class="text">Belum ada panggilan</span>
                             </div>
                             <div class="call-status-badge">
@@ -1506,12 +1506,12 @@
                                 <video id="localVideoSmall" autoplay playsinline muted></video>
                             </div>
                             <!-- Tombol Fullscreen -->
-                            <button class="fullscreen-btn" id="fullscreenBtn" title="Layar Penuh"></button>
+                            <button class="fullscreen-btn" id="fullscreenBtn" title="Layar Penuh">⛶</button>
                         </div>
 
                         <div class="caller-info">
                             <div class="left">
-                                <div class="avatar" id="callerAvatar"></div>
+                                <div class="avatar" id="callerAvatar">👤</div>
                                 <div class="details">
                                     <div class="name" id="callerName">Belum terhubung</div>
                                     <div class="status-text" id="callerStatusText">Tunggu koneksi...</div>
@@ -1521,18 +1521,18 @@
                         </div>
 
                         <div class="call-actions">
-                            <button class="call-btn action-btn" id="muteBtn" title="Mute" disabled></button>
-                            <button class="call-btn voice-call" id="voiceCallBtn" title="Panggilan Suara" disabled></button>
-                            <button class="call-btn video-call" id="videoCallBtn" title="Panggilan Video" disabled></button>
-                            <button class="call-btn end-call" id="endCallBtn" title="Akhiri Panggilan"></button>
-                            <button class="call-btn action-btn" id="speakerBtn" title="Speaker" disabled></button>
+                            <button class="call-btn action-btn" id="muteBtn" title="Mute" disabled>🎤</button>
+                            <button class="call-btn voice-call" id="voiceCallBtn" title="Panggilan Suara" disabled>📞</button>
+                            <button class="call-btn video-call" id="videoCallBtn" title="Panggilan Video" disabled>📹</button>
+                            <button class="call-btn end-call" id="endCallBtn" title="Akhiri Panggilan">📴</button>
+                            <button class="call-btn action-btn" id="speakerBtn" title="Speaker" disabled>🔊</button>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Toast -->
-            <div class="toast" id="toast"> Selamat datang di Sandy Ludani</div>
+            <div class="toast" id="toast">📱 Selamat datang di Sandy Ludani</div>
         </div>
     </div>
 
@@ -1549,11 +1549,11 @@
             <div class="fs-status" id="fsCallerStatus">Terhubung</div>
         </div>
         <div class="fs-timer" id="fsCallTimer">00:00</div>
-        <button class="fs-close-btn" id="fsCloseBtn"></button>
+        <button class="fs-close-btn" id="fsCloseBtn">✕</button>
         <div class="fs-controls">
-            <button class="fs-mute" id="fsMuteBtn" title="Mute"></button>
-            <button class="fs-end-call" id="fsEndCallBtn" title="Akhiri Panggilan"></button>
-            <button class="fs-speaker" id="fsSpeakerBtn" title="Speaker"></button>
+            <button class="fs-mute" id="fsMuteBtn" title="Mute">🎤</button>
+            <button class="fs-end-call" id="fsEndCallBtn" title="Akhiri Panggilan">📴</button>
+            <button class="fs-speaker" id="fsSpeakerBtn" title="Speaker">🔊</button>
         </div>
     </div>
 
@@ -1671,7 +1671,7 @@
                     localStorage.setItem('sandy_ludani_session', 'true');
                 } catch (e) {}
                 showDashboard();
-                showToast(' Selamat datang, Sandy!', 'success');
+                showToast('✅ Selamat datang, Sandy!', 'success');
                 initPeer();
             }
 
@@ -1693,7 +1693,7 @@
                     localStorage.removeItem('sandy_ludani_session');
                 } catch (e) {}
                 showWelcome();
-                showToast(' Anda telah keluar', 'info');
+                showToast('👋 Anda telah keluar', 'info');
                 closeFullscreen();
             }
 
@@ -1726,7 +1726,7 @@
             // ========================================
             function openFullscreen() {
                 if (!isCallActive) {
-                    showToast(' Tidak ada panggilan aktif', 'warning');
+                    showToast('⚠️ Tidak ada panggilan aktif', 'warning');
                     return;
                 }
 
@@ -1757,7 +1757,7 @@
                 } catch (e) {}
 
                 document.body.style.overflow = 'hidden';
-                showToast(' Mode layar penuh', 'info');
+                showToast('⛶ Mode layar penuh', 'info');
             }
 
             function closeFullscreen() {
@@ -1783,9 +1783,9 @@
             }
 
             function updateFullscreenControls() {
-                fsMuteBtn.textContent = isMuted ? '' : '';
+                fsMuteBtn.textContent = isMuted ? '🔇' : '🎤';
                 fsMuteBtn.classList.toggle('muted', isMuted);
-                fsSpeakerBtn.textContent = isSpeaker ? '' : '';
+                fsSpeakerBtn.textContent = isSpeaker ? '🔊' : '🔈';
                 fsSpeakerBtn.classList.toggle('active', isSpeaker);
             }
 
@@ -1793,7 +1793,7 @@
             // PEERJS INIT
             // ========================================
             function initPeer() {
-                showToast(' Menghubungkan ke server...', 'info');
+                showToast('🔗 Menghubungkan ke server...', 'info');
 
                 const peerOptions = {
                     debug: 2,
@@ -1812,8 +1812,8 @@
                 peer.on('open', (id) => {
                     myPeerId = id;
                     isConnected = true;
-                    showToast(' Terhubung ke server!', 'success');
-                    updateRoomStatus(' Buat atau gabung room untuk mulai', false);
+                    showToast('✅ Terhubung ke server!', 'success');
+                    updateRoomStatus('🔑 Buat atau gabung room untuk mulai', false);
                     createRoomBtn.disabled = false;
                     joinRoomBtn.disabled = false;
                     joinRoomInput.disabled = false;
@@ -1830,15 +1830,15 @@
                 peer.on('error', (err) => {
                     console.error('Peer error:', err);
                     if (err.type === 'peer-unavailable') {
-                        showToast(' ID tujuan tidak tersedia', 'error');
+                        showToast('❌ ID tujuan tidak tersedia', 'error');
                     } else {
-                        showToast(' Error: ' + err.message, 'error');
+                        showToast('⚠️ Error: ' + err.message, 'error');
                     }
                 });
 
                 peer.on('close', () => {
                     isConnected = false;
-                    showToast(' Koneksi terputus', 'error');
+                    showToast('🔌 Koneksi terputus', 'error');
                     createRoomBtn.disabled = true;
                     joinRoomBtn.disabled = true;
                     joinRoomInput.disabled = true;
@@ -1868,14 +1868,14 @@
             function updateRoomStatus(text, isSuccess = false) {
                 roomStatus.innerHTML = text;
                 roomStatus.style.color = isSuccess ? '#25d366' : '#6c8a9e';
-                if (text.includes('') || text.includes('')) {
+                if (text.includes('❌') || text.includes('⚠️')) {
                     roomStatus.style.color = '#ff6b6b';
                 }
             }
 
             function createRoom() {
                 if (!isConnected) {
-                    showToast(' Tunggu koneksi server', 'warning');
+                    showToast('⚠️ Tunggu koneksi server', 'warning');
                     return;
                 }
 
@@ -1893,8 +1893,8 @@
                     localStorage.setItem('room_' + code, JSON.stringify(roomData));
                 } catch (e) {}
 
-                updateRoomStatus(' Room <span class="highlight">' + code + '</span> dibuat! Bagikan kode ke teman', true);
-                showToast(' Room ' + code + ' dibuat!', 'success');
+                updateRoomStatus('✅ Room <span class="highlight">' + code + '</span> dibuat! Bagikan kode ke teman', true);
+                showToast('✅ Room ' + code + ' dibuat!', 'success');
                 updateUIForRoom(true);
                 chatInput.disabled = false;
                 sendChatBtn.disabled = false;
@@ -1904,18 +1904,18 @@
                 speakerBtn.disabled = true;
                 fullscreenBtn.classList.remove('show');
 
-                addChatMessage(' Room ' + code + ' dibuat. Bagikan kode ini ke teman!', 'system', 'Sistem');
+                addChatMessage('🏠 Room ' + code + ' dibuat. Bagikan kode ini ke teman!', 'system', 'Sistem');
             }
 
             function joinRoom() {
                 const code = joinRoomInput.value.trim().toUpperCase();
                 if (!code || code.length !== 6) {
-                    showToast(' Masukkan kode 6 digit', 'error');
+                    showToast('⚠️ Masukkan kode 6 digit', 'error');
                     return;
                 }
 
                 if (!isConnected) {
-                    showToast(' Tunggu koneksi server', 'warning');
+                    showToast('⚠️ Tunggu koneksi server', 'warning');
                     return;
                 }
 
@@ -1928,7 +1928,7 @@
                 } catch (e) {}
 
                 if (!roomData) {
-                    showToast(' Mencari room ' + code + '...', 'info');
+                    showToast('🔍 Mencari room ' + code + '...', 'info');
                     setTimeout(() => {
                         let found = false;
                         try {
@@ -1940,7 +1940,7 @@
                         } catch (e) {}
 
                         if (!found) {
-                            showToast(' Room tidak ditemukan. Membuat room baru...', 'warning');
+                            showToast('⚠️ Room tidak ditemukan. Membuat room baru...', 'warning');
                             setRoomCode(code);
                             isRoomHost = true;
                             const newRoomData = {
@@ -1951,9 +1951,9 @@
                             try {
                                 localStorage.setItem('room_' + code, JSON.stringify(newRoomData));
                             } catch (e) {}
-                            updateRoomStatus(' Room <span class="highlight">' + code +
+                            updateRoomStatus('✅ Room <span class="highlight">' + code +
                                 '</span> dibuat! Bagikan kode ke teman', true);
-                            showToast(' Room ' + code + ' dibuat!', 'success');
+                            showToast('✅ Room ' + code + ' dibuat!', 'success');
                             updateUIForRoom(true);
                             chatInput.disabled = false;
                             sendChatBtn.disabled = false;
@@ -1962,7 +1962,7 @@
                             muteBtn.disabled = true;
                             speakerBtn.disabled = true;
                             fullscreenBtn.classList.remove('show');
-                            addChatMessage(' Room ' + code + ' dibuat. Bagikan kode ini ke teman!', 'system', 'Sistem');
+                            addChatMessage('🏠 Room ' + code + ' dibuat. Bagikan kode ini ke teman!', 'system', 'Sistem');
                             return;
                         }
                         connectToRoom(roomData);
@@ -1980,8 +1980,8 @@
                 if (hostId === myPeerId) {
                     setRoomCode(code);
                     isRoomHost = true;
-                    updateRoomStatus(' Room <span class="highlight">' + code + '</span> aktif', true);
-                    showToast(' Room ' + code + ' aktif', 'success');
+                    updateRoomStatus('✅ Room <span class="highlight">' + code + '</span> aktif', true);
+                    showToast('✅ Room ' + code + ' aktif', 'success');
                     updateUIForRoom(true);
                     chatInput.disabled = false;
                     sendChatBtn.disabled = false;
@@ -1990,19 +1990,19 @@
                     muteBtn.disabled = true;
                     speakerBtn.disabled = true;
                     fullscreenBtn.classList.remove('show');
-                    addChatMessage(' Room ' + code + ' aktif. Tunggu teman bergabung!', 'system', 'Sistem');
+                    addChatMessage('🏠 Room ' + code + ' aktif. Tunggu teman bergabung!', 'system', 'Sistem');
                     return;
                 }
 
-                showToast(' Menghubungkan ke room ' + code + '...', 'info');
+                showToast('🔗 Menghubungkan ke room ' + code + '...', 'info');
 
                 const conn = peer.connect(hostId);
                 conn.on('open', () => {
                     chatConnections[hostId] = conn;
                     setRoomCode(code);
                     isRoomHost = false;
-                    updateRoomStatus(' Terhubung ke room <span class="highlight">' + code + '</span>', true);
-                    showToast(' Terhubung ke room ' + code + '!', 'success');
+                    updateRoomStatus('✅ Terhubung ke room <span class="highlight">' + code + '</span>', true);
+                    showToast('✅ Terhubung ke room ' + code + '!', 'success');
                     updateUIForRoom(true);
                     chatInput.disabled = false;
                     sendChatBtn.disabled = false;
@@ -2011,11 +2011,11 @@
                     muteBtn.disabled = true;
                     speakerBtn.disabled = true;
                     fullscreenBtn.classList.remove('show');
-                    addChatMessage(' Bergabung ke room ' + code, 'system', 'Sistem');
+                    addChatMessage('👋 Bergabung ke room ' + code, 'system', 'Sistem');
 
                     conn.send({
                         type: 'system',
-                        payload: ' ' + 'Sandy' + ' bergabung ke room'
+                        payload: '👋 ' + 'Sandy' + ' bergabung ke room'
                     });
 
                     try {
@@ -2035,8 +2035,8 @@
                 });
 
                 conn.on('close', () => {
-                    showToast(' Koneksi ke room terputus', 'error');
-                    updateRoomStatus(' Koneksi terputus', false);
+                    showToast('🔌 Koneksi ke room terputus', 'error');
+                    updateRoomStatus('🔴 Koneksi terputus', false);
                     updateUIForRoom(false);
                     chatInput.disabled = true;
                     sendChatBtn.disabled = true;
@@ -2049,7 +2049,7 @@
                         endCall();
                     }
                     closeFullscreen();
-                    addChatMessage(' Koneksi terputus', 'system', 'Sistem');
+                    addChatMessage('🔌 Koneksi terputus', 'system', 'Sistem');
                 });
             }
 
@@ -2060,7 +2060,7 @@
                 if (roomCode) {
                     conn.send({
                         type: 'system',
-                        payload: ' Room ' + roomCode + ' - Host: Sandy'
+                        payload: '🏠 Room ' + roomCode + ' - Host: Sandy'
                     });
 
                     try {
@@ -2074,9 +2074,9 @@
                         }
                     } catch (e) {}
 
-                    showToast(' ' + peerId.slice(0, 8) + ' bergabung ke room!', 'success');
-                    updateRoomStatus(' Room ' + roomCode + ' - ' + getParticipantCount() + ' peserta', true);
-                    addChatMessage(' ' + peerId.slice(0, 8) + ' bergabung ke room', 'system', 'Sistem');
+                    showToast('👤 ' + peerId.slice(0, 8) + ' bergabung ke room!', 'success');
+                    updateRoomStatus('👥 Room ' + roomCode + ' - ' + getParticipantCount() + ' peserta', true);
+                    addChatMessage('👤 ' + peerId.slice(0, 8) + ' bergabung ke room', 'system', 'Sistem');
                 }
 
                 conn.on('data', (data) => {
@@ -2084,10 +2084,10 @@
                 });
 
                 conn.on('close', () => {
-                    showToast(' ' + peerId.slice(0, 8) + ' meninggalkan room', 'info');
-                    addChatMessage(' ' + peerId.slice(0, 8) + ' meninggalkan room', 'system', 'Sistem');
+                    showToast('👤 ' + peerId.slice(0, 8) + ' meninggalkan room', 'info');
+                    addChatMessage('👤 ' + peerId.slice(0, 8) + ' meninggalkan room', 'system', 'Sistem');
                     delete chatConnections[peerId];
-                    updateRoomStatus(' Room ' + roomCode + ' - ' + getParticipantCount() + ' peserta', true);
+                    updateRoomStatus('👥 Room ' + roomCode + ' - ' + getParticipantCount() + ' peserta', true);
                     if (isCallActive) {
                         endCall();
                         closeFullscreen();
@@ -2097,7 +2097,7 @@
 
             function handleIncomingCall(call) {
                 if (!isRoomHost && roomCode) {
-                    showToast(' Panggilan masuk dari ' + call.peer.slice(0, 8), 'info');
+                    showToast('📞 Panggilan masuk dari ' + call.peer.slice(0, 8), 'info');
                     if (localStream) {
                         call.answer(localStream);
                         handleCall(call);
@@ -2110,7 +2110,7 @@
                                 handleCall(call);
                             })
                             .catch((err) => {
-                                showToast(' Gagal akses media: ' + err.message, 'error');
+                                showToast('❌ Gagal akses media: ' + err.message, 'error');
                             });
                     }
                 }
@@ -2140,7 +2140,7 @@
                     }
                 } else if (data.type === 'call_end') {
                     if (isCallActive) {
-                        showToast(' Panggilan diakhiri oleh ' + from.slice(0, 8), 'info');
+                        showToast('📴 Panggilan diakhiri oleh ' + from.slice(0, 8), 'info');
                         endCall();
                         closeFullscreen();
                     }
@@ -2148,7 +2148,7 @@
             }
 
             function handleCallRequest(from, isVideo) {
-                showToast(' Panggilan ' + (isVideo ? 'video' : 'suara') + ' dari ' + from.slice(0, 8), 'info');
+                showToast('📞 Panggilan ' + (isVideo ? 'video' : 'suara') + ' dari ' + from.slice(0, 8), 'info');
                 callerName.textContent = from.slice(0, 8);
                 callerStatusText.textContent = 'Panggilan masuk...';
                 updateCallStatus('connecting', 'Panggilan masuk...');
@@ -2170,7 +2170,7 @@
                             }
                         })
                         .catch((err) => {
-                            showToast(' Gagal akses media: ' + err.message, 'error');
+                            showToast('❌ Gagal akses media: ' + err.message, 'error');
                         });
                 }
             }
@@ -2185,7 +2185,7 @@
                     videoPlaceholder.classList.add('hidden');
                     isCallActive = true;
                     updateCallStatus('connected', 'Terhubung');
-                    showToast(' Panggilan aktif', 'success');
+                    showToast('✅ Panggilan aktif', 'success');
                     startCallTimer();
                     updateUIForCall(true);
                     callerStatusText.textContent = 'Terhubung';
@@ -2203,13 +2203,13 @@
                 });
 
                 call.on('close', () => {
-                    showToast(' Panggilan berakhir', 'info');
+                    showToast('📴 Panggilan berakhir', 'info');
                     resetCallState();
                     closeFullscreen();
                 });
 
                 call.on('error', (err) => {
-                    showToast(' Error panggilan: ' + err.message, 'error');
+                    showToast('❌ Error panggilan: ' + err.message, 'error');
                     resetCallState();
                     closeFullscreen();
                 });
@@ -2258,7 +2258,7 @@
                 videoPlaceholder.classList.remove('hidden');
                 callerName.textContent = 'Belum terhubung';
                 callerStatusText.textContent = 'Tunggu koneksi...';
-                callerAvatar.textContent = '';
+                callerAvatar.textContent = '👤';
                 if (localVideoWrapper) {
                     localVideoWrapper.classList.add('hidden');
                 }
@@ -2304,17 +2304,17 @@
             // ========================================
             function startCall(isVideo) {
                 if (!isConnected || !roomCode) {
-                    showToast(' Buat atau gabung room terlebih dahulu', 'warning');
+                    showToast('⚠️ Buat atau gabung room terlebih dahulu', 'warning');
                     return;
                 }
 
                 if (!isRoomHost) {
-                    showToast(' Hanya host yang bisa memulai panggilan', 'warning');
+                    showToast('⚠️ Hanya host yang bisa memulai panggilan', 'warning');
                     return;
                 }
 
                 if (isCallActive) {
-                    showToast(' Panggilan sudah aktif', 'warning');
+                    showToast('⚠️ Panggilan sudah aktif', 'warning');
                     return;
                 }
 
@@ -2329,7 +2329,7 @@
 
                 const targets = participants.filter(id => id !== myPeerId);
                 if (targets.length === 0) {
-                    showToast(' Tidak ada peserta lain di room', 'warning');
+                    showToast('⚠️ Tidak ada peserta lain di room', 'warning');
                     return;
                 }
 
@@ -2347,23 +2347,23 @@
                         makeCall(targets[0], isVideo);
                     })
                     .catch((err) => {
-                        showToast(' Gagal akses media: ' + err.message, 'error');
+                        showToast('❌ Gagal akses media: ' + err.message, 'error');
                         if (isVideo) {
                             navigator.mediaDevices.getUserMedia({ audio: true, video: false })
                                 .then((stream) => {
                                     localStream = stream;
                                     setupLocalVideo(stream);
                                     makeCall(targets[0], false);
-                                    showToast(' Panggilan suara (tanpa video)', 'info');
+                                    showToast('🔊 Panggilan suara (tanpa video)', 'info');
                                 })
-                                .catch(() => showToast(' Gagal akses mikrofon', 'error'));
+                                .catch(() => showToast('❌ Gagal akses mikrofon', 'error'));
                         }
                     });
             }
 
             function makeCall(targetId, isVideo) {
                 if (!peer) {
-                    showToast(' Peer belum siap', 'error');
+                    showToast('❌ Peer belum siap', 'error');
                     return;
                 }
 
@@ -2379,13 +2379,13 @@
                 if (call) {
                     handleCall(call);
                     updateCallStatus('connecting', 'Menghubungi...');
-                    showToast(' Memanggil ' + targetId.slice(0, 8) + '...', 'info');
+                    showToast('📞 Memanggil ' + targetId.slice(0, 8) + '...', 'info');
                     callerStatusText.textContent = 'Menghubungi...';
                     callerName.textContent = targetId.slice(0, 8);
                     fsCallerName.textContent = targetId.slice(0, 8);
                     fsCallerStatus.textContent = 'Menghubungi...';
                 } else {
-                    showToast(' Gagal melakukan panggilan', 'error');
+                    showToast('❌ Gagal melakukan panggilan', 'error');
                 }
             }
 
@@ -2412,34 +2412,34 @@
                 }
                 resetCallState();
                 closeFullscreen();
-                showToast(' Panggilan diakhiri', 'info');
+                showToast('📴 Panggilan diakhiri', 'info');
             }
 
             function toggleMute() {
                 if (!isCallActive || !localStream) {
-                    showToast(' Tidak ada panggilan aktif', 'warning');
+                    showToast('⚠️ Tidak ada panggilan aktif', 'warning');
                     return;
                 }
                 isMuted = !isMuted;
                 localStream.getAudioTracks().forEach(track => {
                     track.enabled = !isMuted;
                 });
-                muteBtn.textContent = isMuted ? '' : '';
+                muteBtn.textContent = isMuted ? '🔇' : '🎤';
                 muteBtn.classList.toggle('muted', isMuted);
                 updateFullscreenControls();
-                showToast(isMuted ? ' Mikrofon dimatikan' : ' Mikrofon diaktifkan', 'info');
+                showToast(isMuted ? '🔇 Mikrofon dimatikan' : '🎤 Mikrofon diaktifkan', 'info');
             }
 
             function toggleSpeaker() {
                 if (!isCallActive) {
-                    showToast(' Tidak ada panggilan aktif', 'warning');
+                    showToast('⚠️ Tidak ada panggilan aktif', 'warning');
                     return;
                 }
                 isSpeaker = !isSpeaker;
-                speakerBtn.textContent = isSpeaker ? '' : '';
+                speakerBtn.textContent = isSpeaker ? '🔊' : '🔈';
                 speakerBtn.classList.toggle('speaker-active', isSpeaker);
                 updateFullscreenControls();
-                showToast(isSpeaker ? ' Speaker aktif' : ' Speaker nonaktif', 'info');
+                showToast(isSpeaker ? '🔊 Speaker aktif' : '🔈 Speaker nonaktif', 'info');
             }
 
             function startCallTimer() {
@@ -2461,11 +2461,11 @@
             function sendChatMessage() {
                 const text = chatInput.value.trim();
                 if (!text) {
-                    showToast(' Tulis pesan terlebih dahulu', 'warning');
+                    showToast('✏️ Tulis pesan terlebih dahulu', 'warning');
                     return;
                 }
                 if (!isConnected || !roomCode) {
-                    showToast(' Buat atau gabung room terlebih dahulu', 'warning');
+                    showToast('⚠️ Buat atau gabung room terlebih dahulu', 'warning');
                     return;
                 }
 
@@ -2489,13 +2489,13 @@
 
                 addChatMessage(text, 'sent', 'Sandy');
                 chatInput.value = '';
-                showToast(' Pesan terkirim' + (sent ? '' : ' (offline)'), 'success');
+                showToast('✅ Pesan terkirim' + (sent ? '' : ' (offline)'), 'success');
             }
 
             function receiveChatMessage(text, from) {
                 const sender = from.slice(0, 8);
                 addChatMessage(text, 'received', sender);
-                showToast(' Pesan dari ' + sender, 'info');
+                showToast('💬 Pesan dari ' + sender, 'info');
             }
 
             function addChatMessage(text, type, sender) {
@@ -2524,11 +2524,11 @@
             // ========================================
             function copyRoomCode() {
                 if (!roomCode) {
-                    showToast(' Belum ada room', 'warning');
+                    showToast('⚠️ Belum ada room', 'warning');
                     return;
                 }
                 navigator.clipboard.writeText(roomCode)
-                    .then(() => showToast(' Kode ' + roomCode + ' disalin!', 'success'))
+                    .then(() => showToast('✅ Kode ' + roomCode + ' disalin!', 'success'))
                     .catch(() => {
                         const input = document.createElement('input');
                         input.value = roomCode;
@@ -2536,7 +2536,7 @@
                         input.select();
                         document.execCommand('copy');
                         document.body.removeChild(input);
-                        showToast(' Kode disalin!', 'success');
+                        showToast('✅ Kode disalin!', 'success');
                     });
             }
 
